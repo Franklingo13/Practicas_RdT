@@ -1,0 +1,5 @@
+nand74ls00 == root
+
+nand74ls00 == MariaDB
+
+admin123 == admin

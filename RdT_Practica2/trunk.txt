@@ -1,0 +1,33 @@
+Nombre de la línea troncal:
+IsaAste
+
+
+______Opciones Salientes:__________
+
+Nombre: 
+IssabelFG
+
+Detalles del par:
+
+host=dynamic
+secret=troncal123
+trunk=yes
+type=firend
+
+_____Opciones Entrantes:___________
+Contexto del usuario: Diego
+
+context=from-internal
+host=192.168.0.
+insecure=very
+type=fiend
+
+
+
+_____Cadena de Registro________
+Diego:troncal123@192.168.0.
+
+
+
+***************Rutas Salientes*******************
+Nombre de la ruta: Issaato
