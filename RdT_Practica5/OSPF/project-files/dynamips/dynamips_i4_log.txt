@@ -1,0 +1,43 @@
+Apr 26 23:09:26.191 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 26 23:09:26.192 HYPERVISOR: Started on IP = localhost, TCP port = 57714.
+Apr 26 23:09:26.681 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 26 23:09:26.682 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Documentos\Universidad de Cuenca\Redes de Telecomunicaciones\Practicas_RdT\RdT_Practica5\OSPF\project-files\dynamips 
+Apr 26 23:09:26.682 GENERAL: working_dir=D:\Documentos\Universidad de Cuenca\Redes de Telecomunicaciones\Practicas_RdT\RdT_Practica5\OSPF\project-files\dynamips
+Apr 26 23:09:26.682 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Documentos\Universidad de Cuenca\Redes de Telecomunicaciones\Practicas_RdT\RdT_Practica5\OSPF\project-files\dynamips\701f5c43-7de0-4498-89bb-2d2e82cd5dc8 
+Apr 26 23:09:26.683 GENERAL: working_dir=D:\Documentos\Universidad de Cuenca\Redes de Telecomunicaciones\Practicas_RdT\RdT_Practica5\OSPF\project-files\dynamips\701f5c43-7de0-4498-89bb-2d2e82cd5dc8
+Apr 26 23:09:26.683 HYPERVISOR: exec_cmd: vm create R4 4 c7200 
+Apr 26 23:09:26.685 VM: VM R4 created.
+Apr 26 23:09:26.686 HYPERVISOR: exec_cmd: vm set_con_tcp_port R4 5003 
+Apr 26 23:09:26.686 HYPERVISOR: exec_cmd: c7200 get_mac_addr R4 
+Apr 26 23:09:26.686 HYPERVISOR: exec_cmd: vm get_status R4 
+Apr 26 23:09:26.687 HYPERVISOR: exec_cmd: vm slot_add_binding R4 0 0 C7200-IO-FE 
+Apr 26 23:09:26.687 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/Compustore/GNS3/images/IOS/c7200-advipservicesk9-mz.124-24.T8.image 
+Apr 26 23:09:26.688 HYPERVISOR: exec_cmd: vm get_status R4 
+Apr 26 23:09:26.688 HYPERVISOR: exec_cmd: vm set_idle_pc R4 0x606e0510 
+Apr 26 23:09:26.689 HYPERVISOR: exec_cmd: vm set_exec_area R4 64 
+Apr 26 23:09:26.689 HYPERVISOR: exec_cmd: vm set_ram R4 512 
+Apr 26 23:09:26.690 HYPERVISOR: exec_cmd: vm set_nvram R4 512 
+Apr 26 23:09:26.690 HYPERVISOR: exec_cmd: vm set_disk0 R4 0 
+Apr 26 23:09:26.691 HYPERVISOR: exec_cmd: vm get_status R4 
+Apr 26 23:09:26.691 HYPERVISOR: exec_cmd: vm slot_add_binding R4 1 0 PA-FE-TX 
+Apr 26 23:09:26.691 HYPERVISOR: exec_cmd: vm get_status R4 
+Apr 26 23:09:26.692 HYPERVISOR: exec_cmd: vm slot_add_binding R4 2 0 PA-2FE-TX 
+Apr 26 23:09:26.692 HYPERVISOR: exec_cmd: vm get_status R4 
+Apr 26 23:09:26.692 HYPERVISOR: exec_cmd: vm slot_add_binding R4 3 0 PA-GE 
+Apr 26 23:09:26.693 HYPERVISOR: exec_cmd: vm get_status R4 
+Apr 26 23:09:26.693 HYPERVISOR: exec_cmd: vm slot_add_binding R4 4 0 PA-4T+ 
+Apr 26 23:09:26.693 HYPERVISOR: exec_cmd: vm get_status R4 
+Apr 26 23:09:26.694 HYPERVISOR: exec_cmd: vm slot_add_binding R4 5 0 PA-4E 
+Apr 26 23:09:26.694 HYPERVISOR: exec_cmd: vm get_status R4 
+Apr 26 23:09:26.694 HYPERVISOR: exec_cmd: vm slot_add_binding R4 6 0 PA-8E 
+Apr 26 23:09:26.783 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/Compustore/GNS3/images/IOS/c7200-advipservicesk9-mz.124-24.T8.image 
+Apr 26 23:09:48.979 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/Compustore/GNS3/images/IOS/c7200-advipservicesk9-mz.124-24.T8.image 
+Apr 26 23:10:01.067 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/Compustore/GNS3/images/IOS/c7200-advipservicesk9-mz.124-24.T8.image 
+Apr 26 23:10:17.525 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/Compustore/GNS3/images/IOS/c7200-advipservicesk9-mz.124-24.T8.image 
+Apr 26 23:10:34.270 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/Compustore/GNS3/images/IOS/c7200-advipservicesk9-mz.124-24.T8.image 
+Apr 26 23:10:41.897 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/Compustore/GNS3/images/IOS/c7200-advipservicesk9-mz.124-24.T8.image 
+Apr 26 23:10:43.360 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/Compustore/GNS3/images/IOS/c7200-advipservicesk9-mz.124-24.T8.image 
+Apr 26 23:10:44.361 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/Compustore/GNS3/images/IOS/c7200-advipservicesk9-mz.124-24.T8.image 
+Apr 26 23:10:56.595 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/Compustore/GNS3/images/IOS/c7200-advipservicesk9-mz.124-24.T8.image 
+Apr 26 23:17:17.530 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/Compustore/GNS3/images/IOS/c7200-advipservicesk9-mz.124-24.T8.image 
+Apr 26 23:17:30.010 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/Compustore/GNS3/images/IOS/c7200-advipservicesk9-mz.124-24.T8.image 
