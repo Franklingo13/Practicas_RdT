@@ -1,37 +1,78 @@
-Apr 26 23:11:33.031 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
-Apr 26 23:11:33.032 HYPERVISOR: Started on IP = localhost, TCP port = 57936.
-Apr 26 23:11:33.520 HYPERVISOR: exec_cmd: hypervisor version 
-Apr 26 23:11:33.521 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Documentos\Universidad de Cuenca\Redes de Telecomunicaciones\Practicas_RdT\RdT_Practica5\OSPF\project-files\dynamips 
-Apr 26 23:11:33.521 GENERAL: working_dir=D:\Documentos\Universidad de Cuenca\Redes de Telecomunicaciones\Practicas_RdT\RdT_Practica5\OSPF\project-files\dynamips
-Apr 26 23:11:33.521 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Documentos\Universidad de Cuenca\Redes de Telecomunicaciones\Practicas_RdT\RdT_Practica5\OSPF\project-files\dynamips\4a4c29ef-011a-40af-81cc-555679c2641f 
-Apr 26 23:11:33.522 GENERAL: working_dir=D:\Documentos\Universidad de Cuenca\Redes de Telecomunicaciones\Practicas_RdT\RdT_Practica5\OSPF\project-files\dynamips\4a4c29ef-011a-40af-81cc-555679c2641f
-Apr 26 23:11:33.523 HYPERVISOR: exec_cmd: vm create R9 9 c7200 
-Apr 26 23:11:33.524 VM: VM R9 created.
-Apr 26 23:11:33.525 HYPERVISOR: exec_cmd: vm set_con_tcp_port R9 5008 
-Apr 26 23:11:33.525 HYPERVISOR: exec_cmd: c7200 get_mac_addr R9 
-Apr 26 23:11:33.525 HYPERVISOR: exec_cmd: vm get_status R9 
-Apr 26 23:11:33.526 HYPERVISOR: exec_cmd: vm slot_add_binding R9 0 0 C7200-IO-FE 
-Apr 26 23:11:33.526 HYPERVISOR: exec_cmd: vm set_ios R9 C:/Users/Compustore/GNS3/images/IOS/c7200-advipservicesk9-mz.124-24.T8.image 
-Apr 26 23:11:33.527 HYPERVISOR: exec_cmd: vm get_status R9 
-Apr 26 23:11:33.527 HYPERVISOR: exec_cmd: vm set_idle_pc R9 0x606e0510 
-Apr 26 23:11:33.528 HYPERVISOR: exec_cmd: vm set_exec_area R9 64 
-Apr 26 23:11:33.528 HYPERVISOR: exec_cmd: vm set_ram R9 512 
-Apr 26 23:11:33.529 HYPERVISOR: exec_cmd: vm set_nvram R9 512 
-Apr 26 23:11:33.529 HYPERVISOR: exec_cmd: vm set_disk0 R9 0 
-Apr 26 23:11:33.530 HYPERVISOR: exec_cmd: vm get_status R9 
-Apr 26 23:11:33.530 HYPERVISOR: exec_cmd: vm slot_add_binding R9 1 0 PA-FE-TX 
-Apr 26 23:11:33.531 HYPERVISOR: exec_cmd: vm get_status R9 
-Apr 26 23:11:33.531 HYPERVISOR: exec_cmd: vm slot_add_binding R9 2 0 PA-2FE-TX 
-Apr 26 23:11:33.531 HYPERVISOR: exec_cmd: vm get_status R9 
-Apr 26 23:11:33.532 HYPERVISOR: exec_cmd: vm slot_add_binding R9 3 0 PA-GE 
-Apr 26 23:11:33.532 HYPERVISOR: exec_cmd: vm get_status R9 
-Apr 26 23:11:33.532 HYPERVISOR: exec_cmd: vm slot_add_binding R9 4 0 PA-4T+ 
-Apr 26 23:11:33.533 HYPERVISOR: exec_cmd: vm get_status R9 
-Apr 26 23:11:33.533 HYPERVISOR: exec_cmd: vm slot_add_binding R9 5 0 PA-4E 
-Apr 26 23:11:33.534 HYPERVISOR: exec_cmd: vm get_status R9 
-Apr 26 23:11:33.534 HYPERVISOR: exec_cmd: vm slot_add_binding R9 6 0 PA-8E 
-Apr 26 23:11:33.624 HYPERVISOR: exec_cmd: vm set_ios R9 C:/Users/Compustore/GNS3/images/IOS/c7200-advipservicesk9-mz.124-24.T8.image 
-Apr 26 23:11:35.054 HYPERVISOR: exec_cmd: vm set_ios R9 C:/Users/Compustore/GNS3/images/IOS/c7200-advipservicesk9-mz.124-24.T8.image 
-Apr 26 23:12:37.898 HYPERVISOR: exec_cmd: vm set_ios R9 C:/Users/Compustore/GNS3/images/IOS/c7200-advipservicesk9-mz.124-24.T8.image 
-Apr 26 23:17:17.182 HYPERVISOR: exec_cmd: vm set_ios R9 C:/Users/Compustore/GNS3/images/IOS/c7200-advipservicesk9-mz.124-24.T8.image 
-Apr 26 23:17:29.664 HYPERVISOR: exec_cmd: vm set_ios R9 C:/Users/Compustore/GNS3/images/IOS/c7200-advipservicesk9-mz.124-24.T8.image 
+Apr 27 19:46:20.782 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 27 19:46:20.783 HYPERVISOR: Started on IP = localhost, TCP port = 50522.
+Apr 27 19:46:21.274 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 27 19:46:21.275 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Documentos\Universidad de Cuenca\Redes de Telecomunicaciones\Practicas_RdT\RdT_Practica5\OSPF\project-files\dynamips 
+Apr 27 19:46:21.275 GENERAL: working_dir=D:\Documentos\Universidad de Cuenca\Redes de Telecomunicaciones\Practicas_RdT\RdT_Practica5\OSPF\project-files\dynamips
+Apr 27 19:46:21.275 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Documentos\Universidad de Cuenca\Redes de Telecomunicaciones\Practicas_RdT\RdT_Practica5\OSPF\project-files\dynamips\4a4c29ef-011a-40af-81cc-555679c2641f 
+Apr 27 19:46:21.277 GENERAL: working_dir=D:\Documentos\Universidad de Cuenca\Redes de Telecomunicaciones\Practicas_RdT\RdT_Practica5\OSPF\project-files\dynamips\4a4c29ef-011a-40af-81cc-555679c2641f
+Apr 27 19:46:21.278 HYPERVISOR: exec_cmd: vm create R9 9 c7200 
+Apr 27 19:46:21.279 VM: VM R9 created.
+Apr 27 19:46:21.281 HYPERVISOR: exec_cmd: vm set_con_tcp_port R9 5008 
+Apr 27 19:46:21.281 HYPERVISOR: exec_cmd: c7200 get_mac_addr R9 
+Apr 27 19:46:21.281 HYPERVISOR: exec_cmd: vm get_status R9 
+Apr 27 19:46:21.282 HYPERVISOR: exec_cmd: vm slot_add_binding R9 0 0 C7200-IO-FE 
+Apr 27 19:46:21.282 HYPERVISOR: exec_cmd: vm set_disk0 R9 0 
+Apr 27 19:46:21.282 HYPERVISOR: exec_cmd: vm set_exec_area R9 64 
+Apr 27 19:46:21.283 HYPERVISOR: exec_cmd: vm get_status R9 
+Apr 27 19:46:21.283 HYPERVISOR: exec_cmd: vm set_idle_pc R9 0x606e0510 
+Apr 27 19:46:21.284 HYPERVISOR: exec_cmd: vm set_ios R9 C:/Users/Compustore/GNS3/images/IOS/c7200-advipservicesk9-mz.124-24.T8.image 
+Apr 27 19:46:21.284 HYPERVISOR: exec_cmd: c7200 set_mac_addr R9 ca09.0c98.0000 
+Apr 27 19:46:21.285 HYPERVISOR: exec_cmd: vm set_nvram R9 512 
+Apr 27 19:46:21.285 HYPERVISOR: exec_cmd: vm set_ram R9 512 
+Apr 27 19:46:21.285 HYPERVISOR: exec_cmd: vm get_status R9 
+Apr 27 19:46:21.285 HYPERVISOR: exec_cmd: vm slot_add_binding R9 1 0 PA-FE-TX 
+Apr 27 19:46:21.285 HYPERVISOR: exec_cmd: vm get_status R9 
+Apr 27 19:46:21.287 HYPERVISOR: exec_cmd: vm slot_add_binding R9 2 0 PA-2FE-TX 
+Apr 27 19:46:21.287 HYPERVISOR: exec_cmd: vm get_status R9 
+Apr 27 19:46:21.287 HYPERVISOR: exec_cmd: vm slot_add_binding R9 3 0 PA-GE 
+Apr 27 19:46:21.288 HYPERVISOR: exec_cmd: vm get_status R9 
+Apr 27 19:46:21.288 HYPERVISOR: exec_cmd: vm slot_add_binding R9 4 0 PA-4T+ 
+Apr 27 19:46:21.289 HYPERVISOR: exec_cmd: vm get_status R9 
+Apr 27 19:46:21.289 HYPERVISOR: exec_cmd: vm slot_add_binding R9 5 0 PA-4E 
+Apr 27 19:46:21.289 HYPERVISOR: exec_cmd: vm get_status R9 
+Apr 27 19:46:21.289 HYPERVISOR: exec_cmd: vm slot_add_binding R9 6 0 PA-8E 
+Apr 27 20:12:58.658 HYPERVISOR: exec_cmd: vm get_status R9 
+Apr 27 20:12:58.659 HYPERVISOR: exec_cmd: vm extract_config R9 
+Apr 27 20:12:58.686 HYPERVISOR: exec_cmd: vm get_status R9 
+Apr 27 20:12:58.687 HYPERVISOR: exec_cmd: vm extract_config R9 
+Apr 27 20:47:05.554 HYPERVISOR: exec_cmd: vm set_ios R9 C:/Users/Compustore/GNS3/images/IOS/c7200-advipservicesk9-mz.124-24.T8.image 
+Apr 27 20:47:18.548 HYPERVISOR: exec_cmd: vm set_ios R9 C:/Users/Compustore/GNS3/images/IOS/c7200-advipservicesk9-mz.124-24.T8.image 
+Apr 27 20:47:19.301 HYPERVISOR: exec_cmd: vm set_ios R9 C:/Users/Compustore/GNS3/images/IOS/c7200-advipservicesk9-mz.124-24.T8.image 
+Apr 27 20:47:28.832 HYPERVISOR: exec_cmd: vm set_ios R9 C:/Users/Compustore/GNS3/images/IOS/c7200-advipservicesk9-mz.124-24.T8.image 
+Apr 27 20:47:35.021 HYPERVISOR: exec_cmd: vm set_ios R9 C:/Users/Compustore/GNS3/images/IOS/c7200-advipservicesk9-mz.124-24.T8.image 
+Apr 27 20:49:06.983 HYPERVISOR: exec_cmd: vm set_ios R9 C:/Users/Compustore/GNS3/images/IOS/c7200-advipservicesk9-mz.124-24.T8.image 
+Apr 27 20:49:10.528 HYPERVISOR: exec_cmd: vm set_ios R9 C:/Users/Compustore/GNS3/images/IOS/c7200-advipservicesk9-mz.124-24.T8.image 
+Apr 27 20:54:45.248 HYPERVISOR: exec_cmd: vm set_ios R9 C:/Users/Compustore/GNS3/images/IOS/c7200-advipservicesk9-mz.124-24.T8.image 
+Apr 27 21:38:58.546 HYPERVISOR: exec_cmd: nio create_udp udp-ba730c28-66fb-4d34-94ab-5ab4ab620875 10072 127.0.0.1 10073 
+Apr 27 21:38:58.831 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R9 2 1 udp-ba730c28-66fb-4d34-94ab-5ab4ab620875 
+Apr 27 21:38:58.832 HYPERVISOR: exec_cmd: vm get_status R9 
+Apr 27 21:39:35.234 HYPERVISOR: exec_cmd: nio create_udp udp-89c8668d-4a6c-4521-9855-0ddcf93c1858 10078 127.0.0.1 10079 
+Apr 27 21:39:35.240 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R9 2 0 udp-89c8668d-4a6c-4521-9855-0ddcf93c1858 
+Apr 27 21:39:35.241 HYPERVISOR: exec_cmd: vm get_status R9 
+Apr 27 21:46:40.618 HYPERVISOR: exec_cmd: nio create_udp udp-99c2eb51-294f-466f-adbd-2a8f40d72ec7 10094 127.0.0.1 10095 
+Apr 27 21:46:40.623 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R9 1 0 udp-99c2eb51-294f-466f-adbd-2a8f40d72ec7 
+Apr 27 21:46:40.624 HYPERVISOR: exec_cmd: vm get_status R9 
+Apr 27 21:47:41.477 HYPERVISOR: exec_cmd: nio create_udp udp-ad7bae57-65ab-424f-9bd9-d2e428f8f2cc 10100 127.0.0.1 10101 
+Apr 27 21:47:41.482 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R9 0 0 udp-ad7bae57-65ab-424f-9bd9-d2e428f8f2cc 
+Apr 27 21:47:41.483 HYPERVISOR: exec_cmd: vm get_status R9 
+Apr 27 22:31:43.856 HYPERVISOR: exec_cmd: vm set_ios R9 C:/Users/Compustore/GNS3/images/IOS/c7200-advipservicesk9-mz.124-24.T8.image 
+Apr 27 22:31:48.678 HYPERVISOR: exec_cmd: vm set_ios R9 C:/Users/Compustore/GNS3/images/IOS/c7200-advipservicesk9-mz.124-24.T8.image 
+Apr 27 22:31:54.855 HYPERVISOR: exec_cmd: vm create Ghost 0 c7200 
+Apr 27 22:31:54.857 VM: VM Ghost created.
+Apr 27 22:31:54.858 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Compustore/GNS3/images/IOS/c7200-advipservicesk9-mz.124-24.T8.image 
+Apr 27 22:31:54.859 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Apr 27 22:31:54.860 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'D:\Documentos\Universidad de Cuenca\Redes de Telecomunicaciones\Practicas_RdT\RdT_Practica5\OSPF\project-files\dynamips\c7200-advipservicesk9-mz.124-24.T8.image-512.ghost' 
+Apr 27 22:31:54.861 HYPERVISOR: exec_cmd: vm get_status R9 
+Apr 27 22:31:54.861 HYPERVISOR: exec_cmd: vm set_config R9 configs\i9_startup-config.cfg 
+Apr 27 22:31:54.862 HYPERVISOR: exec_cmd: vm start R9 
+Apr 27 22:32:25.433 HYPERVISOR: exec_cmd: vm extract_config R9 
+Apr 27 22:39:25.667 HYPERVISOR: exec_cmd: vm extract_config R9 
+Apr 27 23:25:24.931 HYPERVISOR: exec_cmd: nio bind_filter udp-99c2eb51-294f-466f-adbd-2a8f40d72ec7 2 capture 
+Apr 27 23:25:24.931 HYPERVISOR: exec_cmd: nio setup_filter udp-99c2eb51-294f-466f-adbd-2a8f40d72ec7 2 en10mb D:\Documentos\Universidad de Cuenca\Redes de Telecomunicaciones\Practicas_RdT\RdT_Practica5\OSPF\project-files\captures\conf_inicial_R8.pcap 
+Apr 27 23:27:43.633 HYPERVISOR: exec_cmd: vm set_ios R9 C:/Users/Compustore/GNS3/images/IOS/c7200-advipservicesk9-mz.124-24.T8.image 
+Apr 27 23:33:57.191 HYPERVISOR: exec_cmd: vm extract_config R9 
+Apr 27 23:41:28.983 HYPERVISOR: exec_cmd: nio unbind_filter udp-99c2eb51-294f-466f-adbd-2a8f40d72ec7 2 
+Apr 28 00:49:35.675 HYPERVISOR: exec_cmd: vm get_status R9 
+Apr 28 00:49:35.676 HYPERVISOR: exec_cmd: vm stop R9 
+Apr 28 00:49:35.925 VM: VM R9 shutdown.
+Apr 28 00:49:35.927 HYPERVISOR: exec_cmd: vm extract_config R9 

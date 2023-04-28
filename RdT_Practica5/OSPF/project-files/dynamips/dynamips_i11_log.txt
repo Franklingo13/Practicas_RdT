@@ -1,0 +1,24 @@
+Apr 27 21:02:54.880 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 27 21:02:54.882 HYPERVISOR: Started on IP = localhost, TCP port = 55370.
+Apr 27 21:02:55.285 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 27 21:02:55.287 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Documentos\Universidad de Cuenca\Redes de Telecomunicaciones\Practicas_RdT\RdT_Practica5\OSPF\project-files\dynamips 
+Apr 27 21:02:55.287 GENERAL: working_dir=D:\Documentos\Universidad de Cuenca\Redes de Telecomunicaciones\Practicas_RdT\RdT_Practica5\OSPF\project-files\dynamips
+Apr 27 21:02:55.287 HYPERVISOR: exec_cmd: ethsw create Switch1 
+Apr 27 21:04:52.959 HYPERVISOR: exec_cmd: nio create_udp udp-7c2507c2-51e9-47fd-83e2-1718eeb0e5a9 10025 127.0.0.1 10024 
+Apr 27 21:04:52.960 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-7c2507c2-51e9-47fd-83e2-1718eeb0e5a9 
+Apr 27 21:04:52.962 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-7c2507c2-51e9-47fd-83e2-1718eeb0e5a9 1 
+Apr 27 21:05:02.434 HYPERVISOR: exec_cmd: nio create_udp udp-f099f8f6-4275-4ec0-8659-7aea3b51e957 10029 127.0.0.1 10028 
+Apr 27 21:05:02.435 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-f099f8f6-4275-4ec0-8659-7aea3b51e957 
+Apr 27 21:05:02.437 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-f099f8f6-4275-4ec0-8659-7aea3b51e957 1 
+Apr 27 21:05:06.246 HYPERVISOR: exec_cmd: nio create_udp udp-fcff8828-33ff-47a1-9d16-060ba0d76355 10031 127.0.0.1 10030 
+Apr 27 21:05:06.246 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-fcff8828-33ff-47a1-9d16-060ba0d76355 
+Apr 27 21:05:06.264 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-fcff8828-33ff-47a1-9d16-060ba0d76355 1 
+Apr 27 21:16:08.139 HYPERVISOR: exec_cmd: nio create_udp udp-24976d33-37f0-4fa6-91a8-d13a9cec8d6c 10042 127.0.0.1 10043 
+Apr 27 21:16:08.139 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-24976d33-37f0-4fa6-91a8-d13a9cec8d6c 
+Apr 27 21:16:08.157 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-24976d33-37f0-4fa6-91a8-d13a9cec8d6c 1 
+Apr 27 21:16:11.916 HYPERVISOR: exec_cmd: nio create_udp udp-885354c5-495f-4d5e-bc35-cf96924e9589 10044 127.0.0.1 10045 
+Apr 27 21:16:11.917 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-885354c5-495f-4d5e-bc35-cf96924e9589 
+Apr 27 21:16:11.948 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-885354c5-495f-4d5e-bc35-cf96924e9589 1 
+Apr 28 00:34:51.683 HYPERVISOR: exec_cmd: nio bind_filter udp-7c2507c2-51e9-47fd-83e2-1718eeb0e5a9 2 capture 
+Apr 28 00:34:51.685 HYPERVISOR: exec_cmd: nio setup_filter udp-7c2507c2-51e9-47fd-83e2-1718eeb0e5a9 2 en10mb D:\Documentos\Universidad de Cuenca\Redes de Telecomunicaciones\Practicas_RdT\RdT_Practica5\OSPF\project-files\captures\R7_FastEthernet00_to_Switch1_Ethernet0.pcap 
+Apr 28 00:37:14.220 HYPERVISOR: exec_cmd: nio unbind_filter udp-7c2507c2-51e9-47fd-83e2-1718eeb0e5a9 2 

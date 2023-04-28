@@ -1,36 +1,69 @@
-Apr 26 23:10:59.438 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
-Apr 26 23:10:59.439 HYPERVISOR: Started on IP = localhost, TCP port = 57875.
-Apr 26 23:10:59.924 HYPERVISOR: exec_cmd: hypervisor version 
-Apr 26 23:10:59.925 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Documentos\Universidad de Cuenca\Redes de Telecomunicaciones\Practicas_RdT\RdT_Practica5\OSPF\project-files\dynamips 
-Apr 26 23:10:59.925 GENERAL: working_dir=D:\Documentos\Universidad de Cuenca\Redes de Telecomunicaciones\Practicas_RdT\RdT_Practica5\OSPF\project-files\dynamips
-Apr 26 23:10:59.925 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Documentos\Universidad de Cuenca\Redes de Telecomunicaciones\Practicas_RdT\RdT_Practica5\OSPF\project-files\dynamips\dae1b63e-23a6-48cd-a85f-01087313727c 
-Apr 26 23:10:59.926 GENERAL: working_dir=D:\Documentos\Universidad de Cuenca\Redes de Telecomunicaciones\Practicas_RdT\RdT_Practica5\OSPF\project-files\dynamips\dae1b63e-23a6-48cd-a85f-01087313727c
-Apr 26 23:10:59.926 HYPERVISOR: exec_cmd: vm create R5 5 c7200 
-Apr 26 23:10:59.928 VM: VM R5 created.
-Apr 26 23:10:59.929 HYPERVISOR: exec_cmd: vm set_con_tcp_port R5 5004 
-Apr 26 23:10:59.929 HYPERVISOR: exec_cmd: c7200 get_mac_addr R5 
-Apr 26 23:10:59.930 HYPERVISOR: exec_cmd: vm get_status R5 
-Apr 26 23:10:59.930 HYPERVISOR: exec_cmd: vm slot_add_binding R5 0 0 C7200-IO-FE 
-Apr 26 23:10:59.931 HYPERVISOR: exec_cmd: vm set_ios R5 C:/Users/Compustore/GNS3/images/IOS/c7200-advipservicesk9-mz.124-24.T8.image 
-Apr 26 23:10:59.931 HYPERVISOR: exec_cmd: vm get_status R5 
-Apr 26 23:10:59.931 HYPERVISOR: exec_cmd: vm set_idle_pc R5 0x606e0510 
-Apr 26 23:10:59.932 HYPERVISOR: exec_cmd: vm set_exec_area R5 64 
-Apr 26 23:10:59.933 HYPERVISOR: exec_cmd: vm set_ram R5 512 
-Apr 26 23:10:59.933 HYPERVISOR: exec_cmd: vm set_nvram R5 512 
-Apr 26 23:10:59.933 HYPERVISOR: exec_cmd: vm set_disk0 R5 0 
-Apr 26 23:10:59.934 HYPERVISOR: exec_cmd: vm get_status R5 
-Apr 26 23:10:59.934 HYPERVISOR: exec_cmd: vm slot_add_binding R5 1 0 PA-FE-TX 
-Apr 26 23:10:59.935 HYPERVISOR: exec_cmd: vm get_status R5 
-Apr 26 23:10:59.935 HYPERVISOR: exec_cmd: vm slot_add_binding R5 2 0 PA-2FE-TX 
-Apr 26 23:10:59.936 HYPERVISOR: exec_cmd: vm get_status R5 
-Apr 26 23:10:59.937 HYPERVISOR: exec_cmd: vm slot_add_binding R5 3 0 PA-GE 
-Apr 26 23:10:59.938 HYPERVISOR: exec_cmd: vm get_status R5 
-Apr 26 23:10:59.938 HYPERVISOR: exec_cmd: vm slot_add_binding R5 4 0 PA-4T+ 
-Apr 26 23:10:59.939 HYPERVISOR: exec_cmd: vm get_status R5 
-Apr 26 23:10:59.939 HYPERVISOR: exec_cmd: vm slot_add_binding R5 5 0 PA-4E 
-Apr 26 23:10:59.939 HYPERVISOR: exec_cmd: vm get_status R5 
-Apr 26 23:10:59.940 HYPERVISOR: exec_cmd: vm slot_add_binding R5 6 0 PA-8E 
-Apr 26 23:11:00.011 HYPERVISOR: exec_cmd: vm set_ios R5 C:/Users/Compustore/GNS3/images/IOS/c7200-advipservicesk9-mz.124-24.T8.image 
-Apr 26 23:11:01.706 HYPERVISOR: exec_cmd: vm set_ios R5 C:/Users/Compustore/GNS3/images/IOS/c7200-advipservicesk9-mz.124-24.T8.image 
-Apr 26 23:17:17.192 HYPERVISOR: exec_cmd: vm set_ios R5 C:/Users/Compustore/GNS3/images/IOS/c7200-advipservicesk9-mz.124-24.T8.image 
-Apr 26 23:17:29.675 HYPERVISOR: exec_cmd: vm set_ios R5 C:/Users/Compustore/GNS3/images/IOS/c7200-advipservicesk9-mz.124-24.T8.image 
+Apr 27 19:46:18.526 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 27 19:46:18.527 HYPERVISOR: Started on IP = localhost, TCP port = 50497.
+Apr 27 19:46:19.018 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 27 19:46:19.018 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Documentos\Universidad de Cuenca\Redes de Telecomunicaciones\Practicas_RdT\RdT_Practica5\OSPF\project-files\dynamips 
+Apr 27 19:46:19.018 GENERAL: working_dir=D:\Documentos\Universidad de Cuenca\Redes de Telecomunicaciones\Practicas_RdT\RdT_Practica5\OSPF\project-files\dynamips
+Apr 27 19:46:19.019 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Documentos\Universidad de Cuenca\Redes de Telecomunicaciones\Practicas_RdT\RdT_Practica5\OSPF\project-files\dynamips\dae1b63e-23a6-48cd-a85f-01087313727c 
+Apr 27 19:46:19.020 GENERAL: working_dir=D:\Documentos\Universidad de Cuenca\Redes de Telecomunicaciones\Practicas_RdT\RdT_Practica5\OSPF\project-files\dynamips\dae1b63e-23a6-48cd-a85f-01087313727c
+Apr 27 19:46:19.020 HYPERVISOR: exec_cmd: vm create R5 5 c7200 
+Apr 27 19:46:19.021 VM: VM R5 created.
+Apr 27 19:46:19.022 HYPERVISOR: exec_cmd: vm set_con_tcp_port R5 5004 
+Apr 27 19:46:19.022 HYPERVISOR: exec_cmd: c7200 get_mac_addr R5 
+Apr 27 19:46:19.022 HYPERVISOR: exec_cmd: vm get_status R5 
+Apr 27 19:46:19.022 HYPERVISOR: exec_cmd: vm slot_add_binding R5 0 0 C7200-IO-FE 
+Apr 27 19:46:19.023 HYPERVISOR: exec_cmd: vm set_disk0 R5 0 
+Apr 27 19:46:19.023 HYPERVISOR: exec_cmd: vm set_exec_area R5 64 
+Apr 27 19:46:19.024 HYPERVISOR: exec_cmd: vm get_status R5 
+Apr 27 19:46:19.024 HYPERVISOR: exec_cmd: vm set_idle_pc R5 0x606e0510 
+Apr 27 19:46:19.025 HYPERVISOR: exec_cmd: vm set_ios R5 C:/Users/Compustore/GNS3/images/IOS/c7200-advipservicesk9-mz.124-24.T8.image 
+Apr 27 19:46:19.025 HYPERVISOR: exec_cmd: c7200 set_mac_addr R5 ca05.4c50.0000 
+Apr 27 19:46:19.026 HYPERVISOR: exec_cmd: vm set_nvram R5 512 
+Apr 27 19:46:19.026 HYPERVISOR: exec_cmd: vm set_ram R5 512 
+Apr 27 19:46:19.026 HYPERVISOR: exec_cmd: vm get_status R5 
+Apr 27 19:46:19.026 HYPERVISOR: exec_cmd: vm slot_add_binding R5 1 0 PA-FE-TX 
+Apr 27 19:46:19.027 HYPERVISOR: exec_cmd: vm get_status R5 
+Apr 27 19:46:19.027 HYPERVISOR: exec_cmd: vm slot_add_binding R5 2 0 PA-2FE-TX 
+Apr 27 19:46:19.027 HYPERVISOR: exec_cmd: vm get_status R5 
+Apr 27 19:46:19.027 HYPERVISOR: exec_cmd: vm slot_add_binding R5 3 0 PA-GE 
+Apr 27 19:46:19.028 HYPERVISOR: exec_cmd: vm get_status R5 
+Apr 27 19:46:19.028 HYPERVISOR: exec_cmd: vm slot_add_binding R5 4 0 PA-4T+ 
+Apr 27 19:46:19.028 HYPERVISOR: exec_cmd: vm get_status R5 
+Apr 27 19:46:19.028 HYPERVISOR: exec_cmd: vm slot_add_binding R5 5 0 PA-4E 
+Apr 27 19:46:19.029 HYPERVISOR: exec_cmd: vm get_status R5 
+Apr 27 19:46:19.029 HYPERVISOR: exec_cmd: vm slot_add_binding R5 6 0 PA-8E 
+Apr 27 20:12:58.633 HYPERVISOR: exec_cmd: vm get_status R5 
+Apr 27 20:12:58.634 HYPERVISOR: exec_cmd: vm extract_config R5 
+Apr 27 20:12:58.668 HYPERVISOR: exec_cmd: vm get_status R5 
+Apr 27 20:12:58.668 HYPERVISOR: exec_cmd: vm extract_config R5 
+Apr 27 20:40:09.408 HYPERVISOR: exec_cmd: vm create Ghost 0 c7200 
+Apr 27 20:40:09.411 VM: VM Ghost created.
+Apr 27 20:40:09.411 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Compustore/GNS3/images/IOS/c7200-advipservicesk9-mz.124-24.T8.image 
+Apr 27 20:40:09.412 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Apr 27 20:40:09.412 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'D:\Documentos\Universidad de Cuenca\Redes de Telecomunicaciones\Practicas_RdT\RdT_Practica5\OSPF\project-files\dynamips\c7200-advipservicesk9-mz.124-24.T8.image-512.ghost' 
+Apr 27 20:40:09.412 HYPERVISOR: exec_cmd: vm get_status R5 
+Apr 27 20:40:09.413 HYPERVISOR: exec_cmd: vm set_config R5 configs\i5_startup-config.cfg 
+Apr 27 20:40:09.413 HYPERVISOR: exec_cmd: vm start R5 
+Apr 27 20:40:15.938 HYPERVISOR: exec_cmd: nio create_udp udp-3dacc40a-b085-488c-9c96-d41a5966b924 10022 127.0.0.1 10023 
+Apr 27 20:40:16.195 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R5 0 0 udp-3dacc40a-b085-488c-9c96-d41a5966b924 
+Apr 27 20:40:16.195 HYPERVISOR: exec_cmd: vm get_status R5 
+Apr 27 20:40:16.195 HYPERVISOR: exec_cmd: vm slot_enable_nio R5 0 0 
+Apr 27 20:40:39.884 HYPERVISOR: exec_cmd: vm extract_config R5 
+Apr 27 20:40:41.305 HYPERVISOR: exec_cmd: vm set_ios R5 C:/Users/Compustore/GNS3/images/IOS/c7200-advipservicesk9-mz.124-24.T8.image 
+Apr 27 20:43:39.973 HYPERVISOR: exec_cmd: vm extract_config R5 
+Apr 27 21:07:20.878 HYPERVISOR: exec_cmd: vm get_status R5 
+Apr 27 21:07:20.879 HYPERVISOR: exec_cmd: vm stop R5 
+Apr 27 21:07:21.034 VM: VM R5 shutdown.
+Apr 27 21:07:21.035 HYPERVISOR: exec_cmd: vm extract_config R5 
+Apr 27 21:36:56.278 HYPERVISOR: exec_cmd: nio create_udp udp-d083c448-59df-4b30-8429-556a79c57336 10066 127.0.0.1 10067 
+Apr 27 21:36:56.287 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R5 1 0 udp-d083c448-59df-4b30-8429-556a79c57336 
+Apr 27 21:36:56.287 HYPERVISOR: exec_cmd: vm get_status R5 
+Apr 27 23:05:06.027 HYPERVISOR: exec_cmd: vm create Ghost 0 c7200 
+Apr 27 23:05:06.032 HYPERVISOR: exec_cmd: vm get_status R5 
+Apr 27 23:05:06.033 HYPERVISOR: exec_cmd: vm set_config R5 configs\i5_startup-config.cfg 
+Apr 27 23:05:06.033 HYPERVISOR: exec_cmd: vm start R5 
+Apr 27 23:09:36.579 HYPERVISOR: exec_cmd: vm extract_config R5 
+Apr 28 00:06:38.098 HYPERVISOR: exec_cmd: vm extract_config R5 
+Apr 28 00:49:35.393 HYPERVISOR: exec_cmd: vm get_status R5 
+Apr 28 00:49:35.394 HYPERVISOR: exec_cmd: vm stop R5 
+Apr 28 00:49:35.601 VM: VM R5 shutdown.
+Apr 28 00:49:35.603 HYPERVISOR: exec_cmd: vm extract_config R5 

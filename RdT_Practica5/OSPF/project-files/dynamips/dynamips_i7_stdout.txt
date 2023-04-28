@@ -1,0 +1,6 @@
+vm_mmap_open_file: unable to open file 'c7200_i7_nvram' (No such file or directory)
+vm_mmap_open_file: unable to open file 'c7200_i7_nvram' (No such file or directory)
+VM: Unable to store instance 'Ghost' in registry!
+VM Ghost: unable to create instance!
+VM: Unable to store instance 'Ghost' in registry!
+VM Ghost: unable to create instance!
